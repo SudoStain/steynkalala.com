@@ -11,7 +11,7 @@ export default function Home() {
           <div className="flex mb-0">
             <div className="w-1/5">
               <Image
-                src="/steyn-kalala-headshot.png"
+                src="/steyn_kalala_headshot.png"
                 alt="Picture of the author"
                 width={118}
                 height={118}
