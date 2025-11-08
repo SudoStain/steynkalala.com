@@ -53,7 +53,7 @@ export default function Home() {
             <p className="max-w-full text-lg leading-8 text-zinc-600 dark:text-zinc-400 -mt-2">
               I&#39;m also a writer,{" "}
               <a
-                href="#arttist"
+                href="#artist"
                 className="underline decoration-dotted decoration-indigo-300"
               >
                 artist
@@ -122,7 +122,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium text-purple-500 dark:text-indigo-300 underline"
-                id="bantucode"
+                id="artist"
               >
                 my art
               </a>{" "} on    <a
