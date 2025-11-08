@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import profileImage from '../../public/Steyn_kalala_headshot.png'
+
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-slate-50 font-serif dark:bg-black">
@@ -11,7 +13,7 @@ export default function Home() {
           <div className="flex mb-0">
             <div className="md:w-1/5 w-2/5 mt-10 md:mt-0">
               <Image
-                src="/steyn_kalala_headshot.png"
+                src={profileImage}
                 alt="Picture of the author"
                 width={118}
                 height={118}
