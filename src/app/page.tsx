@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-slate-50 font-serif dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-4xl flex-col items-center justify-between py-32 px-16 bg-slate-50 dark:bg-black sm:items-start">
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className=" text-6xl font-semibold  tracking-tight text-black dark:text-zinc-50 mb-10">
+      <main className="flex min-h-screen w-full max-w-4xl flex-col items-center justify-between py-32 px-4 md:px-16 bg-slate-50 dark:bg-black sm:items-start">
+        <div className="flex flex-col items-center gap-6  sm:items-start sm:text-left">
+          <h1 className=" text-6xl font-semibold  tracking-tight text-black dark:text-zinc-50 mb-3 md:mb-10">
             Steyn Kalala
           </h1>
           <div className="flex mb-0">
-            <div className="w-1/5">
+            <div className="md:w-1/5 w-2/5 mt-10 md:mt-0">
               <Image
                 src="/steyn_kalala_headshot.png"
                 alt="Picture of the author"
@@ -47,7 +47,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div>
+          <div className="mb-10">
             <p className="max-w-full text-lg leading-8 text-zinc-600 dark:text-zinc-400 -mt-2">
               I&#39;m also a writer,{" "}
               <a
@@ -80,7 +80,7 @@ export default function Home() {
             >
               What Skateboarding Taught Me
             </h1>
-            <p className="max-w-full text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+            <p className="max-w-full text-base leading-8 text-zinc-600 dark:text-zinc-400">
               <a
                 href="https://www.youtube.com/watch?v=4cpD_fe5nO0"
                 target="_blank"
@@ -207,9 +207,51 @@ export default function Home() {
               >
                 software development
               </a>
-              , including mobile app development using Swift, Kotlin, and
-              TypeScript/JavaScript; web development using React (Next.js); API
-              development using Node.js, Django, and Go/Gin; and DevOps
+              , including mobile app development using        <a
+                  href="https://www.swift.org/"
+                  className="underline decoration-dotted decoration-indigo-300"
+                     target="_blank"
+                rel="noopener noreferrer"
+                >
+                  Swift
+                </a>,  <a
+                  href="https://kotlinlang.org/"
+                  className="underline decoration-dotted decoration-indigo-300"
+                     target="_blank"
+                rel="noopener noreferrer"
+                >
+                  Kotlin
+                </a>, and
+              TypeScript/JavaScript; web development using  <a
+                  href="https://nextjs.org/"
+                  className="underline decoration-dotted decoration-indigo-300"
+                     target="_blank"
+                rel="noopener noreferrer"
+                >
+                  React-Nextjs
+                </a>; API
+              development using  <a
+                  href="https://nodejs.org/en"
+                  className="underline decoration-dotted decoration-indigo-300"
+                     target="_blank"
+                rel="noopener noreferrer"
+                >
+                  NodeJs
+                </a>, <a
+                  href="https://www.djangoproject.com/"
+                  className="underline decoration-dotted decoration-indigo-300"
+                     target="_blank"
+                rel="noopener noreferrer"
+                >
+                  Django
+                </a>, and <a
+                  href="https://gin-gonic.com/"
+                  className="underline decoration-dotted decoration-indigo-300"
+                     target="_blank"
+                rel="noopener noreferrer"
+                >
+                  GIN/GO
+                </a>; and DevOps
               practices across all major cloud providers. Teaching allows me to
               empower others with practical skills and a deeper understanding of
               technology and economics.
