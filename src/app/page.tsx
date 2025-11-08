@@ -53,6 +53,13 @@ export default function Home() {
             <p className="max-w-full text-lg leading-8 text-zinc-600 dark:text-zinc-400 -mt-2">
               I&#39;m also a writer,{" "}
               <a
+                href="#arttist"
+                className="underline decoration-dotted decoration-indigo-300"
+              >
+                artist
+              </a>
+              , {" "}
+              <a
                 href="#bantucode"
                 className="underline decoration-dotted decoration-indigo-300"
               >
@@ -101,7 +108,32 @@ export default function Home() {
               challenges.
             </p>
           </div>
-        <div className="mb-10">
+          <div className="mb-10">
+            <h1
+              className=" text-xl font-semibold  tracking-tight text-black dark:text-zinc-50 mb-2"
+              id="artist"
+            >
+              Why I studied Art
+            </h1>
+            <p className="max-w-full text-base leading-8 text-zinc-600 dark:text-zinc-400">
+          
+              I chose to study art because I&#39;ve always admired the great polymaths of the Renaissance—people who blended science, mathematics, and creativity into one happy pursuit of knowledge. Mathematics, particularly geometry, has always been my favourite subject, and I wanted to understand how artists used those same principles to create harmony and balance in their work. Learning to draw and think like an artist has helped me develop a more creative and multidimensional mind, allowing me to approach problem-solving and innovation with greater imagination. You can even check out and buy some of <a
+                href="https://www.esdantis.com/exhibit/steyn-kalala"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-purple-500 dark:text-indigo-300 underline"
+                id="bantucode"
+              >
+                my art
+              </a>{" "} on    <a
+                  href="#esdantis"
+                  className="underline decoration-dotted decoration-indigo-300"
+                >
+                  Esdantis
+                </a>.
+            </p>
+          </div>
+          <div className="mb-10">
             <h1
               className=" text-xl font-semibold   text-black dark:text-zinc-50 mb-2 scroll-mt-32"
               id="ogiven"
@@ -129,7 +161,7 @@ export default function Home() {
             </p>
           </div>
 
-            <div className="mb-10">
+          <div className="mb-10">
             <h1
               className=" text-xl font-semibold  tracking-tight text-black dark:text-zinc-50 mb-2 scroll-mt-32"
               id="esdantis"
@@ -155,7 +187,7 @@ export default function Home() {
               meaningful engagement and opportunity.
             </p>
           </div>
-           <div className="mb-10">
+          <div className="mb-10">
             <h1 className=" text-xl font-semibold  tracking-tight text-black dark:text-zinc-50 mb-2">
               Creator of Bantucode
             </h1>
@@ -181,8 +213,8 @@ export default function Home() {
               through technology and innovation.
             </p>
           </div>
-         
-       <div className="mb-10">
+
+          <div className="mb-10">
             <h1 className="text-xl font-semibold tracking-tight text-black dark:text-zinc-50 mb-2">
               Sharing Knowledge
             </h1>
@@ -210,50 +242,50 @@ export default function Home() {
                 software development
               </a>
               , including mobile app development using        <a
-                  href="https://www.swift.org/"
-                  className="underline decoration-dotted decoration-indigo-300"
-                     target="_blank"
+                href="https://www.swift.org/"
+                className="underline decoration-dotted decoration-indigo-300"
+                target="_blank"
                 rel="noopener noreferrer"
-                >
-                  Swift
-                </a>,  <a
-                  href="https://kotlinlang.org/"
-                  className="underline decoration-dotted decoration-indigo-300"
-                     target="_blank"
+              >
+                Swift
+              </a>,  <a
+                href="https://kotlinlang.org/"
+                className="underline decoration-dotted decoration-indigo-300"
+                target="_blank"
                 rel="noopener noreferrer"
-                >
-                  Kotlin
-                </a>, and
+              >
+                Kotlin
+              </a>, and
               TypeScript/JavaScript; web development using  <a
-                  href="https://nextjs.org/"
-                  className="underline decoration-dotted decoration-indigo-300"
-                     target="_blank"
+                href="https://nextjs.org/"
+                className="underline decoration-dotted decoration-indigo-300"
+                target="_blank"
                 rel="noopener noreferrer"
-                >
-                  React-Nextjs
-                </a>; API
+              >
+                React-Nextjs
+              </a>; API
               development using  <a
-                  href="https://nodejs.org/en"
-                  className="underline decoration-dotted decoration-indigo-300"
-                     target="_blank"
+                href="https://nodejs.org/en"
+                className="underline decoration-dotted decoration-indigo-300"
+                target="_blank"
                 rel="noopener noreferrer"
-                >
-                  NodeJs
-                </a>, <a
-                  href="https://www.djangoproject.com/"
-                  className="underline decoration-dotted decoration-indigo-300"
-                     target="_blank"
+              >
+                NodeJs
+              </a>, <a
+                href="https://www.djangoproject.com/"
+                className="underline decoration-dotted decoration-indigo-300"
+                target="_blank"
                 rel="noopener noreferrer"
-                >
-                  Django
-                </a>, and <a
-                  href="https://gin-gonic.com/"
-                  className="underline decoration-dotted decoration-indigo-300"
-                     target="_blank"
+              >
+                Django
+              </a>, and <a
+                href="https://gin-gonic.com/"
+                className="underline decoration-dotted decoration-indigo-300"
+                target="_blank"
                 rel="noopener noreferrer"
-                >
-                  GIN/GO
-                </a>; and DevOps
+              >
+                GIN/GO
+              </a>; and DevOps
               practices across all major cloud providers. Teaching allows me to
               empower others with practical skills and a deeper understanding of
               technology and economics.
